@@ -1,0 +1,94 @@
+/* * ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*/
+/* * ➤ CONFIGURATION */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+
+
+/* * ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*/
+/* * ➤ GENERAL */
+
+body {
+  background-color: var(--bgColor);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+/* * ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔ */
+/* * ➤ FONTS */
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+
+
+/* * ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔ */
+/* * ➤ VARIABLES */
+
+:root {
+  --bgColor:                #FAFAFA;
+
+  --colorWhite:             #FFF;
+  --lightGrayColor:         #CFD8E5;
+  --colorGray:              #6C757D;
+  --darkGrayColor:          #343A40;
+  --colorBlack:             #141414;
+
+  --xLightPrimaryColor:     #408FFF;
+  --lightPrimaryColor:      #1A79FF;
+  --primaryColor:           #0A55BF;
+  --darkPrimaryColor:       #063980;
+
+  --lightSecondaryColor:    #737373;
+  --secondaryColor:         #4D4D4D;
+  --darkSecondaryColor:     #262626;
+
+  --successColor-light:     #0ACC92;
+  --successColor:           #08A677;
+  --successColor-dark:      #008059;
+  --infoColor-light:        #33BBFF;
+  --infoColor:              #0CA6F2;
+  --infoColor-dark:         #007FBF;
+  --warningColor-light:     #FF9326;
+  --warningColor:           #F27F0C;
+  --warningColor-dark:      #D96C00;
+  --dangerColor-light:      #F21818;
+  --dangerColor:            #D90B0B;
+  --dangerColor-dark:       #B20909;
+
+  --lightColor-x-light:     #FAFCFF;
+  --lightColor-light:       #F5F9FF;
+  --lightColor:             #F0F2F5;
+  --lightColor-dark:        #E1E5EB;
+  --darkColor-x-light:      #39414D;
+  --darkColor-light:        #303640;
+  --darkColor:              #262B33;
+  --darkColor-dark:         #1D2126;
+}

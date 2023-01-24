@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Remera",
+        "price": 2000,
+        "discount": 25,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Jean",
+        "price": 6500,
+        "discount": 30,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Jogging",
+        "price": 2800,
+        "discount": 15,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Gorra",
+        "price": 1500,
+        "discount": 15,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Buzo",
+        "price": 3500,
+        "discount": 25,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Short",
+        "price": 2500,
+        "discount": 25,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Zapatillas",
+        "price": 6500,
+        "discount": 15,
+        "url": "https://picsum.photos/480"
+    },
+    {
+        "name": "Zapatos",
+        "price": 5700,
+        "discount": 25,
+        "url": "https://picsum.photos/480"
+    }
+]

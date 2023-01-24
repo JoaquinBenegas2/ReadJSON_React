@@ -1,0 +1,22 @@
+.products-section {
+    background-color: var(--bgColor);
+    width: 85%;
+    max-width: 1200px;
+    margin: 32px auto;
+    padding: 24px;
+}
+
+.products-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+    color: var(--colorBlack);
+}
+
+.products-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    row-gap: 48px;
+    column-gap: 24px;
+}

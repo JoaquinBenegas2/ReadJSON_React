@@ -1,0 +1,33 @@
+.product {
+    background-color: var(--colorWhite);
+    width: 260px;
+    padding: 20px 16px;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.product-img {
+    display: block;
+    margin: auto;
+}
+
+.product-name {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-oldPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.product-price {
+    font-weight: bold;
+}
